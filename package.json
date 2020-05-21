@@ -1,0 +1,54 @@
+{
+  "name": "vite-is-cool",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build app --outDir dist ",
+    "start": "vite serve app"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "jsxBracketSameLine": false,
+    "printWidth": 80,
+    "quoteProps": "consistent",
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  },
+  "importSort": {
+    ".js, jsx, .ts, .tsx": {
+      "style":"module",
+      "parser":"typescript"
+    }
+  },
+  "dependencies": {
+    "@pika/react": "16.13.1",
+    "@pika/react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "import-sort-style-module": "6.0.0",
+    "prettier-plugin-import-sort": "0.0.4",
+    "undertaker-forward-reference": "1.0.2",
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-react": "7.9.4",
+    "@babel/preset-typescript": "7.9.0",
+    "@mixer/parallel-prettier": "2.0.0",
+    "@types/react": "16.9.35",
+    "@types/react-dom": "16.9.8",
+    "babel-plugin-macros": "2.8.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "babel-plugin-polished": "1.1.0",
+    "babel-plugin-transform-react-pug": "7.0.1",
+    "fs-jetpack": "2.4.0",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-spawn": "0.4.5",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "pug": "2.0.4",
+    "typescript": "3.9.3",
+    "vite": "0.16.6",
+    "vite-plugin-react": "1.1.2",
+    "prettier": "2.0.5"
+  }
+}
