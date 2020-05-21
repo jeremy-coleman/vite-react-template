@@ -58,12 +58,3 @@ gulp.task("start", gulp.series(gulp.tree().nodes));
 //   gulp.parallel('copy', 'tsc'),
 //   gulp.parallel("watch","vite")
 // ))
-
-
-gulp.task("cat", () => {
-  return gulp
-    .src("node-iaktta/src/**/*.{ts,tsx,js,jsx}")
-    .pipe(concat("m-hook.ts"))
-    //.pipe(babel())
-    .pipe(gulp.dest("temp"));
-});
